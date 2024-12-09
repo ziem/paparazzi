@@ -24,6 +24,8 @@ include ':paparazzi-gradle-plugin'
 
 include ':sample'
 
+include ':app'
+
 enableFeaturePreview('TYPESAFE_PROJECT_ACCESSORS')
 
 includeBuild('build-logic') {
